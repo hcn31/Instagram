@@ -24,7 +24,7 @@ class UserHome extends StatelessWidget {
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("INSAGRAM"),
+              Text("INSTAGRAM"),
               Row(
                 children: [
                   Icon(Icons.add),

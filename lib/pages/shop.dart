@@ -1,13 +1,45 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/util/grid_view.dart';
 
 class UserShop extends StatelessWidget {
   const UserShop({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-        body: Center(
-      child: Text("shop"),
-    ));
+    return Scaffold(
+        appBar: AppBar(
+          title:
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+            Text("Shop"),
+            Container(
+                child: Row(
+              children: [Icon(Icons.calendar_month), Icon(Icons.menu)],
+            ))
+          ]),
+        ),
+        body: Column(
+          children: [
+            ClipRRect(
+              child: Container(
+                padding: const EdgeInsets.all(8),
+                color: Colors.grey[300],
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.search,
+                      color: Colors.grey,
+                    ),
+                    Text(
+                      " Search",
+                      style: TextStyle(color: Colors.grey),
+                    )
+                  ],
+                ),
+              ),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            //GridV()
+          ],
+        ));
   }
 }
