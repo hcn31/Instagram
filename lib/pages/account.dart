@@ -79,7 +79,7 @@ class UserAccount extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       Text(
-                          "🆘🆘🆘🆘Mr. Beggar bgha chi wahed ye9ra l9our2an (التجويد )"),
+                          "🆘🆘🆘🆘"),
                       Text(
                         "https://www.youtube.com/watch?v=z5PH2s9ytl8",
                         style: TextStyle(color: Colors.blue),
